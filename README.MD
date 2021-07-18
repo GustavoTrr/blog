@@ -47,3 +47,13 @@ Passos que usei para criar:
 2. Criei o repositório no GitHub e adicionei a referência no local
     - git remote add https://github.com/GustavoTrr/blog.git
 3. Realizei o primeiro commit
+    *precisei mudar o nome da branch com o comando "git branch -m feature/<novo_nome>"
+    E agora..
+    - git add .
+    - git commit -m "Iniciando projeto"
+    - git flow feature finish
+4. Realizei o primeiro lançamento (release)
+    - git flow release start 0.0.0
+    - git flow release finish 0.0.0
+    E o envio para o repositório:
+    - git push --all --tags
