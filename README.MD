@@ -1,3 +1,5 @@
+VERSION: 0.0.0
+
 Ideia:
 
 Construir um blog simplificado que permita versionar o conteúdo junto com o repositório.
